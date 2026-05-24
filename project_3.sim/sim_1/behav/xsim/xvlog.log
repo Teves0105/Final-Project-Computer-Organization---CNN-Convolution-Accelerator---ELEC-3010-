@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/24long.nh/project_3/project_3.srcs/sources_1/new/conv2d_accel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv2d_accel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/24long.nh/project_3/project_3.srcs/sources_1/new/conv_engine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv_engine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/24long.nh/project_3/project_3.srcs/sources_1/new/simple_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/24long.nh/project_3/project_3.srcs/sim_1/new/tb_conv2d_accel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_conv2d_accel
