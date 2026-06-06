@@ -17,10 +17,11 @@ We designed, implemented, and verified a custom **2D Convolution Hardware Accele
 * **Partially Parallel Extension:** An upgraded architecture utilizing $K=3$ parallel multipliers and a custom multi-port SRAM. This reduces the processing time per output pixel from 9 cycles to 4 cycles.
 * **Hardware-Accurate Software Model:** A Python-based CNN emulation utilizing `int8` quantization and bit-masking to perfectly mirror the hardware's truncation behavior and generate Golden Reference files.
 * **Comprehensive Verification:** A rigorous Verilog testbench equipped with automatic sanity checks, memory latency handling, and automated pixel-by-pixel validation reporting.
-*
-* <img width="800" height="600" alt="System Architecture Diagram V3" src="https://github.com/user-attachments/assets/42e0c37a-9974-4086-963c-7537f34a28b3" />
-
-<img width="800" height="607" alt="FSM" src="https://github.com/user-attachments/assets/2c7377bc-b876-42d2-a582-696e316dd9cf" />
+<div align="center">
+  <img width="800" src="https://github.com/user-attachments/assets/42e0c37a-9974-4086-963c-7537f34a28b3" alt="System Architecture Diagram V3">
+  <br>
+  <img width="800" src="https://github.com/user-attachments/assets/2c7377bc-b876-42d2-a582-696e316dd9cf" alt="FSM">
+</div>
 
 ## 📊 Performance & Synthesis Results
 
