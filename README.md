@@ -18,9 +18,9 @@ We designed, implemented, and verified a custom **2D Convolution Hardware Accele
 * **Hardware-Accurate Software Model:** A Python-based CNN emulation utilizing `int8` quantization and bit-masking to perfectly mirror the hardware's truncation behavior and generate Golden Reference files.
 * **Comprehensive Verification:** A rigorous Verilog testbench equipped with automatic sanity checks, memory latency handling, and automated pixel-by-pixel validation reporting.
 <div align="center">
-  <img width="800" src="https://github.com/user-attachments/assets/42e0c37a-9974-4086-963c-7537f34a28b3" alt="System Architecture Diagram V3">
+  <img width="500" src="https://github.com/user-attachments/assets/42e0c37a-9974-4086-963c-7537f34a28b3" alt="System Architecture Diagram V3">
   <br>
-  <img width="800" src="https://github.com/user-attachments/assets/2c7377bc-b876-42d2-a582-696e316dd9cf" alt="FSM">
+  <img width="500" src="https://github.com/user-attachments/assets/2c7377bc-b876-42d2-a582-696e316dd9cf" alt="FSM">
 </div>
 
 ## 📊 Performance & Synthesis Results
