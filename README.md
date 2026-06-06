@@ -17,6 +17,9 @@ We designed, implemented, and verified a custom **2D Convolution Hardware Accele
 * **Partially Parallel Extension:** An upgraded architecture utilizing $K=3$ parallel multipliers and a custom multi-port SRAM. This reduces the processing time per output pixel from 9 cycles to 4 cycles.
 * **Hardware-Accurate Software Model:** A Python-based CNN emulation utilizing `int8` quantization and bit-masking to perfectly mirror the hardware's truncation behavior and generate Golden Reference files.
 * **Comprehensive Verification:** A rigorous Verilog testbench equipped with automatic sanity checks, memory latency handling, and automated pixel-by-pixel validation reporting.
+* <img width="1656" height="857" alt="System Architecture Diagram V3" src="https://github.com/user-attachments/assets/42e0c37a-9974-4086-963c-7537f34a28b3" />
+
+<img width="1324" height="1037" alt="FSM" src="https://github.com/user-attachments/assets/2c7377bc-b876-42d2-a582-696e316dd9cf" />
 
 ## 📊 Performance & Synthesis Results
 
@@ -48,6 +51,7 @@ The accelerator was synthesized on Vivado with a 10ns (100 MHz) timing constrain
 1. Ensure you have `numpy` and `matplotlib` installed.
 2. Run `prepare_data.py` to extract a random $16 \times 16$ image from the MNIST dataset.
 3. The script will apply the $3 \times 3$ kernel, compute the convolution, and generate `input_feature_map.txt`, `kernel.txt`, and `expected_output.txt`.
+<img width="1500" height="500" alt="visualization" src="https://github.com/user-attachments/assets/4b158381-1250-4018-adf3-707b6bd329c9" />
 
 ### 2. Hardware Simulation (Vivado)
 1. Create a new Vivado project and add all `.v` files to the Design Sources.
